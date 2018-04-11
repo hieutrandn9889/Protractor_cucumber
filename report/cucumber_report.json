@@ -1,0 +1,196 @@
+[
+  {
+    "description": "  I want to test Login page",
+    "elements": [
+      {
+        "id": "login-account;verify-\"logo\"-apply-at-registration-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify \"Logo\" apply at registration page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 589932
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/forgotPasswordSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 307091
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open website http://localhost:3000/registration",
+            "result": {
+              "status": "passed",
+              "duration": 3513474
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click logo button at header",
+            "result": {
+              "status": "passed",
+              "duration": 2601625
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The page re-fresh",
+            "result": {
+              "status": "passed",
+              "duration": 503384
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 253160
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/hook.js:5"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "login-account;verify-\"logo\"-apply-at-login-page",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Verify \"Logo\" apply at login page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 140540
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/forgotPasswordSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 115521
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open website http://localhost:3000/login",
+            "result": {
+              "status": "passed",
+              "duration": 682793
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click logo button at header",
+            "result": {
+              "status": "passed",
+              "duration": 962659
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The page re-fresh",
+            "result": {
+              "status": "passed",
+              "duration": 458734
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I close browser",
+            "result": {
+              "status": "passed",
+              "duration": 1896392
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:98"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 125663
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/hook.js:5"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-account",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login Account",
+    "tags": [],
+    "uri": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/features/login.feature"
+  }
+]
