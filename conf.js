@@ -7,6 +7,12 @@ exports.config = {
         'test/features/login.feature',
         // 'test/features/forgotPassword.feature'
     ],
+    // vi du chay gop nhom cac test case
+//     suites:{
+//         login: [
+//             './test/specs/login.spec.js'
+//        ]
+//     },
     cucumberOpts: {
         require: ['hook.js', 'test/steps/*Steps.js'],
         format: 'pretty'
