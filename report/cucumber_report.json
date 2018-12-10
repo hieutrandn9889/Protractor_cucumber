@@ -13,7 +13,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 654099
+              "duration": 361801
             },
             "hidden": true,
             "match": {
@@ -25,7 +25,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 318900
+              "duration": 204900
             },
             "hidden": true,
             "match": {
@@ -38,7 +38,7 @@
             "name": "I open website http://localhost:3000",
             "result": {
               "status": "passed",
-              "duration": 2918301
+              "duration": 2434900
             },
             "line": 5,
             "match": {
@@ -51,7 +51,7 @@
             "name": "I input email , password ",
             "result": {
               "status": "passed",
-              "duration": 2830501
+              "duration": 2051401
             },
             "line": 6,
             "match": {
@@ -64,7 +64,7 @@
             "name": "I click login button",
             "result": {
               "status": "passed",
-              "duration": 613999
+              "duration": 422800
             },
             "line": 7,
             "match": {
@@ -77,7 +77,7 @@
             "name": "I verify message errorEmail Required, errorPassword Required",
             "result": {
               "status": "passed",
-              "duration": 1418700
+              "duration": 803500
             },
             "line": 8,
             "match": {
@@ -89,7 +89,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 219600
+              "duration": 124100
             },
             "hidden": true,
             "match": {
@@ -111,7 +111,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 146600
+              "duration": 137100
             },
             "hidden": true,
             "match": {
@@ -123,7 +123,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 137700
+              "duration": 181500
             },
             "hidden": true,
             "match": {
@@ -136,7 +136,7 @@
             "name": "I open website http://localhost:3000",
             "result": {
               "status": "passed",
-              "duration": 813000
+              "duration": 889500
             },
             "line": 14,
             "match": {
@@ -149,7 +149,7 @@
             "name": "I input email abc, password ",
             "result": {
               "status": "passed",
-              "duration": 6708699
+              "duration": 678000
             },
             "line": 15,
             "match": {
@@ -162,7 +162,7 @@
             "name": "I click login button",
             "result": {
               "status": "passed",
-              "duration": 569600
+              "duration": 283601
             },
             "line": 16,
             "match": {
@@ -175,7 +175,7 @@
             "name": "I verify message errorFormatEmail, errorPassword Required",
             "result": {
               "status": "passed",
-              "duration": 537601
+              "duration": 352200
             },
             "line": 17,
             "match": {
@@ -187,7 +187,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 60300
+              "duration": 42600
             },
             "hidden": true,
             "match": {
@@ -209,7 +209,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 130799
+              "duration": 126900
             },
             "hidden": true,
             "match": {
@@ -221,7 +221,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 81801
+              "duration": 152901
             },
             "hidden": true,
             "match": {
@@ -234,7 +234,7 @@
             "name": "I open website http://localhost:3000",
             "result": {
               "status": "passed",
-              "duration": 430400
+              "duration": 764900
             },
             "line": 23,
             "match": {
@@ -247,7 +247,7 @@
             "name": "I input email , password abc",
             "result": {
               "status": "passed",
-              "duration": 530000
+              "duration": 592600
             },
             "line": 24,
             "match": {
@@ -260,7 +260,7 @@
             "name": "I click login button",
             "result": {
               "status": "passed",
-              "duration": 236100
+              "duration": 240900
             },
             "line": 25,
             "match": {
@@ -273,7 +273,7 @@
             "name": "I verify message errorFormatEmail Required, errorPassword",
             "result": {
               "status": "passed",
-              "duration": 681600
+              "duration": 355501
             },
             "line": 26,
             "match": {
@@ -285,7 +285,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 47500
+              "duration": 35401
             },
             "hidden": true,
             "match": {
@@ -307,7 +307,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 66400
+              "duration": 136599
             },
             "hidden": true,
             "match": {
@@ -319,7 +319,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 63400
+              "duration": 84401
             },
             "hidden": true,
             "match": {
@@ -332,7 +332,7 @@
             "name": "I open website http://localhost:3000",
             "result": {
               "status": "passed",
-              "duration": 964899
+              "duration": 385601
             },
             "line": 32,
             "match": {
@@ -345,7 +345,7 @@
             "name": "I input email abc, password abc",
             "result": {
               "status": "passed",
-              "duration": 989900
+              "duration": 545200
             },
             "line": 33,
             "match": {
@@ -358,7 +358,7 @@
             "name": "I click login button",
             "result": {
               "status": "passed",
-              "duration": 295800
+              "duration": 610200
             },
             "line": 34,
             "match": {
@@ -371,7 +371,7 @@
             "name": "I verify message errorFormatInvalid Invalid username or password.",
             "result": {
               "status": "passed",
-              "duration": 339000
+              "duration": 1279601
             },
             "line": 35,
             "match": {
@@ -383,7 +383,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 38400
+              "duration": 39099
             },
             "hidden": true,
             "match": {
@@ -405,7 +405,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 94600
+              "duration": 75600
             },
             "hidden": true,
             "match": {
@@ -417,7 +417,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 69701
+              "duration": 78700
             },
             "hidden": true,
             "match": {
@@ -430,7 +430,7 @@
             "name": "I open website http://localhost:3000",
             "result": {
               "status": "passed",
-              "duration": 388000
+              "duration": 385701
             },
             "line": 41,
             "match": {
@@ -443,7 +443,7 @@
             "name": "I input email hieutrandn9889+8@gmail.com, password Abcd@1234",
             "result": {
               "status": "passed",
-              "duration": 518099
+              "duration": 536500
             },
             "line": 42,
             "match": {
@@ -456,7 +456,7 @@
             "name": "I click login button",
             "result": {
               "status": "passed",
-              "duration": 237900
+              "duration": 270100
             },
             "line": 43,
             "match": {
@@ -469,7 +469,7 @@
             "name": "I verify message errorFormatInacitve User is inactive.",
             "result": {
               "status": "passed",
-              "duration": 767200
+              "duration": 549600
             },
             "line": 44,
             "match": {
@@ -481,7 +481,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 110201
+              "duration": 39301
             },
             "hidden": true,
             "match": {
@@ -503,7 +503,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 62900
+              "duration": 65701
             },
             "hidden": true,
             "match": {
@@ -515,7 +515,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 105901
+              "duration": 63000
             },
             "hidden": true,
             "match": {
@@ -528,7 +528,7 @@
             "name": "I open website http://localhost:3000",
             "result": {
               "status": "passed",
-              "duration": 384700
+              "duration": 365901
             },
             "line": 50,
             "match": {
@@ -541,7 +541,7 @@
             "name": "I input email hieutrandn9889@gmail.com, password Abcd@1234",
             "result": {
               "status": "passed",
-              "duration": 1438500
+              "duration": 527700
             },
             "line": 51,
             "match": {
@@ -554,7 +554,7 @@
             "name": "I click review password button",
             "result": {
               "status": "passed",
-              "duration": 588200
+              "duration": 329000
             },
             "line": 52,
             "match": {
@@ -567,7 +567,7 @@
             "name": "I verify password display",
             "result": {
               "status": "passed",
-              "duration": 699800
+              "duration": 1248001
             },
             "line": 53,
             "match": {
@@ -579,7 +579,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 81801
+              "duration": 70899
             },
             "hidden": true,
             "match": {
@@ -601,7 +601,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 136400
+              "duration": 57001
             },
             "hidden": true,
             "match": {
@@ -613,7 +613,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 214300
+              "duration": 72500
             },
             "hidden": true,
             "match": {
@@ -626,7 +626,7 @@
             "name": "I open website http://localhost:3000/registration",
             "result": {
               "status": "passed",
-              "duration": 983100
+              "duration": 589100
             },
             "line": 59,
             "match": {
@@ -639,7 +639,7 @@
             "name": "I click login button at header",
             "result": {
               "status": "passed",
-              "duration": 466800
+              "duration": 377101
             },
             "line": 60,
             "match": {
@@ -652,7 +652,7 @@
             "name": "I verify this page",
             "result": {
               "status": "passed",
-              "duration": 654401
+              "duration": 402100
             },
             "line": 61,
             "match": {
@@ -664,7 +664,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 55300
+              "duration": 46400
             },
             "hidden": true,
             "match": {
@@ -686,7 +686,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 58701
+              "duration": 38700
             },
             "hidden": true,
             "match": {
@@ -698,7 +698,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 109300
+              "duration": 85400
             },
             "hidden": true,
             "match": {
@@ -711,7 +711,7 @@
             "name": "I open website http://localhost:3000/registration",
             "result": {
               "status": "passed",
-              "duration": 434000
+              "duration": 433800
             },
             "line": 67,
             "match": {
@@ -724,7 +724,7 @@
             "name": "I click logo button at header",
             "result": {
               "status": "passed",
-              "duration": 360301
+              "duration": 388000
             },
             "line": 68,
             "match": {
@@ -737,7 +737,7 @@
             "name": "The page re-fresh",
             "result": {
               "status": "passed",
-              "duration": 609400
+              "duration": 359600
             },
             "line": 69,
             "match": {
@@ -749,7 +749,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 152600
+              "duration": 52200
             },
             "hidden": true,
             "match": {
@@ -771,7 +771,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 87301
+              "duration": 130099
             },
             "hidden": true,
             "match": {
@@ -783,7 +783,7 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 353100
+              "duration": 81599
             },
             "hidden": true,
             "match": {
@@ -796,7 +796,7 @@
             "name": "I open website http://localhost:3000/login",
             "result": {
               "status": "passed",
-              "duration": 1009700
+              "duration": 425400
             },
             "line": 75,
             "match": {
@@ -809,7 +809,7 @@
             "name": "I click logo button at header",
             "result": {
               "status": "passed",
-              "duration": 471700
+              "duration": 293000
             },
             "line": 76,
             "match": {
@@ -822,7 +822,7 @@
             "name": "The page re-fresh",
             "result": {
               "status": "passed",
-              "duration": 226699
+              "duration": 162700
             },
             "line": 77,
             "match": {
@@ -835,7 +835,7 @@
             "name": "I close browser",
             "result": {
               "status": "passed",
-              "duration": 551100
+              "duration": 496200
             },
             "line": 78,
             "match": {
@@ -847,7 +847,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 62800
+              "duration": 46900
             },
             "hidden": true,
             "match": {
