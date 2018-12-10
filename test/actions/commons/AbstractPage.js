@@ -2,7 +2,7 @@
  * Created by hieutran on 08/10/2017.
  */
 
-var expect = require('./../../../expect.js');
+var expect = require('../../../expect.js');
 
 var abstractPage = {};
 
