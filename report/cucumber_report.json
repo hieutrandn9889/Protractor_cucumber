@@ -3,21 +3,21 @@
     "description": "  I want to test Login page",
     "elements": [
       {
-        "id": "login-account;verify-\"logo\"-apply-at-registration-page",
+        "id": "login-account;verify-validate-all-field-is-null/-blank",
         "keyword": "Scenario",
-        "line": 10,
-        "name": "Verify \"Logo\" apply at registration page",
+        "line": 11,
+        "name": "Verify validate all field is null/ Blank",
         "steps": [
           {
             "arguments": [],
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 589932
+              "duration": 654099
             },
             "hidden": true,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/forgotPasswordSteps.js:9"
+              "location": "D:\\Protractor_cucumber\\test\\steps\\forgotPasswordSteps.js:9"
             }
           },
           {
@@ -25,11 +25,599 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 307091
+              "duration": 318900
             },
             "hidden": true,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:9"
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open website http://localhost:3000",
+            "result": {
+              "status": "passed",
+              "duration": 2918301
+            },
+            "line": 5,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I input email , password ",
+            "result": {
+              "status": "passed",
+              "duration": 2830501
+            },
+            "line": 6,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click login button",
+            "result": {
+              "status": "passed",
+              "duration": 613999
+            },
+            "line": 7,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I verify message errorEmail Required, errorPassword Required",
+            "result": {
+              "status": "passed",
+              "duration": 1418700
+            },
+            "line": 8,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 219600
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\hook.js:5"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "login-account;verify-validate-input-email-without-input-password",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Verify validate input email without input password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 146600
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\forgotPasswordSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 137700
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open website http://localhost:3000",
+            "result": {
+              "status": "passed",
+              "duration": 813000
+            },
+            "line": 14,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I input email abc, password ",
+            "result": {
+              "status": "passed",
+              "duration": 6708699
+            },
+            "line": 15,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click login button",
+            "result": {
+              "status": "passed",
+              "duration": 569600
+            },
+            "line": 16,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I verify message errorFormatEmail, errorPassword Required",
+            "result": {
+              "status": "passed",
+              "duration": 537601
+            },
+            "line": 17,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 60300
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\hook.js:5"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "login-account;verify-validate-input-password-without-input-email",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Verify validate input password without input email",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 130799
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\forgotPasswordSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 81801
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open website http://localhost:3000",
+            "result": {
+              "status": "passed",
+              "duration": 430400
+            },
+            "line": 23,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I input email , password abc",
+            "result": {
+              "status": "passed",
+              "duration": 530000
+            },
+            "line": 24,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click login button",
+            "result": {
+              "status": "passed",
+              "duration": 236100
+            },
+            "line": 25,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I verify message errorFormatEmail Required, errorPassword",
+            "result": {
+              "status": "passed",
+              "duration": 681600
+            },
+            "line": 26,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 47500
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\hook.js:5"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "login-account;verify-validate-when-inputing-email-is-invalue(wrong-format-:-x@mail.com)",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Verify validate when inputing email is invalue(wrong format : X@mail.com)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 66400
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\forgotPasswordSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 63400
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open website http://localhost:3000",
+            "result": {
+              "status": "passed",
+              "duration": 964899
+            },
+            "line": 32,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I input email abc, password abc",
+            "result": {
+              "status": "passed",
+              "duration": 989900
+            },
+            "line": 33,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click login button",
+            "result": {
+              "status": "passed",
+              "duration": 295800
+            },
+            "line": 34,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I verify message errorFormatInvalid Invalid username or password.",
+            "result": {
+              "status": "passed",
+              "duration": 339000
+            },
+            "line": 35,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 38400
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\hook.js:5"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "login-account;login-with-email-and-password-is-inactive",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Login with email and password is inactive",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 94600
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\forgotPasswordSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 69701
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open website http://localhost:3000",
+            "result": {
+              "status": "passed",
+              "duration": 388000
+            },
+            "line": 41,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I input email hieutrandn9889+8@gmail.com, password Abcd@1234",
+            "result": {
+              "status": "passed",
+              "duration": 518099
+            },
+            "line": 42,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click login button",
+            "result": {
+              "status": "passed",
+              "duration": 237900
+            },
+            "line": 43,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I verify message errorFormatInacitve User is inactive.",
+            "result": {
+              "status": "passed",
+              "duration": 767200
+            },
+            "line": 44,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 110201
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\hook.js:5"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "login-account;check-review-password-apply",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Check review password apply",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 62900
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\forgotPasswordSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 105901
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open website http://localhost:3000",
+            "result": {
+              "status": "passed",
+              "duration": 384700
+            },
+            "line": 50,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I input email hieutrandn9889@gmail.com, password Abcd@1234",
+            "result": {
+              "status": "passed",
+              "duration": 1438500
+            },
+            "line": 51,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click review password button",
+            "result": {
+              "status": "passed",
+              "duration": 588200
+            },
+            "line": 52,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I verify password display",
+            "result": {
+              "status": "passed",
+              "duration": 699800
+            },
+            "line": 53,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 81801
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\hook.js:5"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "login-account;verify-\"log-in\"-button-apply",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Verify \"Log In\" button apply",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 136400
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\forgotPasswordSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 214300
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:9"
             }
           },
           {
@@ -38,11 +626,96 @@
             "name": "I open website http://localhost:3000/registration",
             "result": {
               "status": "passed",
-              "duration": 3513474
+              "duration": 983100
             },
-            "line": 5,
+            "line": 59,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:14"
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click login button at header",
+            "result": {
+              "status": "passed",
+              "duration": 466800
+            },
+            "line": 60,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I verify this page",
+            "result": {
+              "status": "passed",
+              "duration": 654401
+            },
+            "line": 61,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:85"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 55300
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\hook.js:5"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "login-account;verify-\"logo\"-apply-at-registration-page",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "Verify \"Logo\" apply at registration page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 58701
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\forgotPasswordSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 109300
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open website http://localhost:3000/registration",
+            "result": {
+              "status": "passed",
+              "duration": 434000
+            },
+            "line": 67,
+            "match": {
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:14"
             }
           },
           {
@@ -51,11 +724,11 @@
             "name": "I click logo button at header",
             "result": {
               "status": "passed",
-              "duration": 2601625
+              "duration": 360301
             },
-            "line": 6,
+            "line": 68,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:43"
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:43"
             }
           },
           {
@@ -64,11 +737,11 @@
             "name": "The page re-fresh",
             "result": {
               "status": "passed",
-              "duration": 503384
+              "duration": 609400
             },
-            "line": 7,
+            "line": 69,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:92"
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:92"
             }
           },
           {
@@ -76,11 +749,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 253160
+              "duration": 152600
             },
             "hidden": true,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/hook.js:5"
+              "location": "D:\\Protractor_cucumber\\hook.js:5"
             }
           }
         ],
@@ -90,7 +763,7 @@
       {
         "id": "login-account;verify-\"logo\"-apply-at-login-page",
         "keyword": "Scenario",
-        "line": 19,
+        "line": 81,
         "name": "Verify \"Logo\" apply at login page",
         "steps": [
           {
@@ -98,11 +771,11 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 140540
+              "duration": 87301
             },
             "hidden": true,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/forgotPasswordSteps.js:9"
+              "location": "D:\\Protractor_cucumber\\test\\steps\\forgotPasswordSteps.js:9"
             }
           },
           {
@@ -110,11 +783,11 @@
             "keyword": "Before ",
             "result": {
               "status": "passed",
-              "duration": 115521
+              "duration": 353100
             },
             "hidden": true,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:9"
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:9"
             }
           },
           {
@@ -123,11 +796,11 @@
             "name": "I open website http://localhost:3000/login",
             "result": {
               "status": "passed",
-              "duration": 682793
+              "duration": 1009700
             },
-            "line": 13,
+            "line": 75,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:14"
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:14"
             }
           },
           {
@@ -136,11 +809,11 @@
             "name": "I click logo button at header",
             "result": {
               "status": "passed",
-              "duration": 962659
+              "duration": 471700
             },
-            "line": 14,
+            "line": 76,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:43"
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:43"
             }
           },
           {
@@ -149,11 +822,11 @@
             "name": "The page re-fresh",
             "result": {
               "status": "passed",
-              "duration": 458734
+              "duration": 226699
             },
-            "line": 15,
+            "line": 77,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:92"
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:92"
             }
           },
           {
@@ -162,11 +835,11 @@
             "name": "I close browser",
             "result": {
               "status": "passed",
-              "duration": 1896392
+              "duration": 551100
             },
-            "line": 16,
+            "line": 78,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/steps/loginSteps.js:98"
+              "location": "D:\\Protractor_cucumber\\test\\steps\\LoginSteps.js:98"
             }
           },
           {
@@ -174,11 +847,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 125663
+              "duration": 62800
             },
             "hidden": true,
             "match": {
-              "location": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/hook.js:5"
+              "location": "D:\\Protractor_cucumber\\hook.js:5"
             }
           }
         ],
@@ -191,6 +864,6 @@
     "line": 1,
     "name": "Login Account",
     "tags": [],
-    "uri": "/Users/hieutran/Desktop/Protractor/2/Protractor_cucumber/test/features/login.feature"
+    "uri": "D:\\Protractor_cucumber\\test\\features\\login.feature"
   }
 ]

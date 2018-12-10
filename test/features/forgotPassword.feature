@@ -11,6 +11,6 @@ Scenario Outline: Check "Forgot password" button apply
     Then I close browser
     
    Examples:
-      | website                                    |email|errorFormatEmail|
+      | website|email|errorFormatEmail|
       | http://localhost:3000| abc |Invalid email address|
 
