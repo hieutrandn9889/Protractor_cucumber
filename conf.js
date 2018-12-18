@@ -2,7 +2,8 @@ exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
-
+     // config k cần gọi đến thằng webdriver-manager start
+    //directConnect = true,
     specs: [
         'test/features/login.feature',
         // 'test/features/forgotPassword.feature'
@@ -48,8 +49,7 @@ exports.config = {
     //     shardTestFiles: false,
     //     maxInstances: 1
     // }
-
-
+ 
     capabilities: {
         browserName: 'chrome',
         shardTestFiles: true,
