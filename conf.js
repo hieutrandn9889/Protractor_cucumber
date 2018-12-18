@@ -3,7 +3,7 @@ exports.config = {
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
      // config k cần gọi đến thằng webdriver-manager start
-    //directConnect = true,
+    //directConnect: true,
     specs: [
         'test/features/login.feature',
         // 'test/features/forgotPassword.feature'
